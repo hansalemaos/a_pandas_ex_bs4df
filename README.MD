@@ -15,6 +15,7 @@ pip install a-pandas-ex-bs4df
 ```
 
 ```python
+# lxml is the default parser:  pip install lxml
 from a_pandas_ex_bs4df import pd_add_bs4_to_df
 import pandas as pd
 pd_add_bs4_to_df()    
