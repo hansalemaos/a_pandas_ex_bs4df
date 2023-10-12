@@ -7,7 +7,8 @@ import pandas as pd
 import regex
 import requests
 from useful_functions_easier_life import NamedFunction
-
+import lxml
+import cchardet
 
 def get_soup_df(
     htmlcode: Union[str, bytes],

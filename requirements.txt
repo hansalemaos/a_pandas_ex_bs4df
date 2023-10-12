@@ -1,4 +1,6 @@
 beautifulsoup4
+cchardet
+lxml
 pandas
 regex
 requests
